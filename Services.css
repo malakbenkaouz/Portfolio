@@ -1,0 +1,22 @@
+.service-button {
+  background-color: #0d021c;
+    color: rgb(142, 119, 235);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 15px;
+  transition: all 0.3s ease;
+}
+
+.service-button:hover:not(:active) {
+  background-color: #0a0800;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 10px rgba(198, 195, 216, 0.25);
+}
+
+.service-button:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}

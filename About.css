@@ -1,0 +1,69 @@
+/* About.css */
+
+.about-section {
+  padding: 100px 20px;
+  text-align: center;
+  background-color: #3f1477;
+}
+
+.about-section img.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 20px auto;
+  display: block;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.skills-section {
+  margin-top: 60px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.skill-badge {
+  padding: 10px 15px;
+  border: 1px solid #c2a5df;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.personal-journey {
+  margin-top: 60px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+
+.connect-button {
+  background-color: #3b82f6;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 40px;
+  transition: all 0.3s ease;
+}
+
+.connect-button:hover {
+  background-color: #2563eb;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
+}
